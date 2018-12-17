@@ -287,13 +287,13 @@ card
   top: -0.75rem;
   border-radius: 3px;
 }
-.blog-card:hover .details {
+/* .blog-card:hover .details {
   left: 0%;
-}
+} */
 @media (min-width: 640px) {
   .blog-card {
     flex-direction: row;
-    max-width: 700px;
+    max-width: 80vw;
   }
   .blog-card .meta {
     flex-basis: 40%;
