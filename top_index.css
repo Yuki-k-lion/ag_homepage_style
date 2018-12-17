@@ -1,0 +1,130 @@
+/*=======
+Bace style
+=======*/
+
+.home .container {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0px !important;
+  position: relative;
+}
+
+
+/*=======
+sidebar
+=======*/
+
+.home .sidebar {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+}
+
+@media(min-width: 48em) {
+  .home .sidebar {
+    max-width: 45rem;
+    margin-left: 45px;
+  }
+}
+
+
+/*=======
+TOP page display
+=======*/
+
+.home .ttl_h1 {
+  display: none;
+}
+
+.home .share {
+  display: none;
+}
+
+.home img, div {
+  padding: 0px;
+  margin: 0px;
+}
+
+.home .breadcrumb {
+  display: none;
+}
+
+
+
+/*=======
+about section
+=======*/
+
+.home .home_about {
+  background-color: #037ef3;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.home .home_about_content {
+  width: 80%;
+  margin: auto;
+}
+
+.home .home_about::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media (min-width:900px) {
+	.home .home_textcontent {
+	  width: 45%;
+	  float: left;
+	  text-align: center;
+	  margin-right: 10%;
+	}
+
+	.home .home_youtube {
+	  width: 45%;
+	  float: left;
+	  text-align: center;
+	  margin-top: 20px;
+	  margin-bottom: 10px;
+	}
+}
+@media (max-width:899px) {
+	.home .home_textcontent {
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.home .home_youtube {
+	  width: 100%;
+	  margin-top: 20px;
+	  margin-bottom: 10px;
+	}
+}
+
+
+
+/*=======
+article section
+=======*/
+.home .l-article li img{
+	box-shadow: 0px 0px 1px 0px #999;
+}
+
+@media (min-width:400px) {
+	.home .l-article li {
+	  list-style: none;
+	  float: left;
+	  width: 30%;
+	  margin: 0 12px 12px 0;
+	}
+}
+@media (max-width:399px) {
+	.home .l-article li {
+		list-style: none;
+		float: left;
+		width: 80%;
+		margin: 20px auto;
+	}
+}
