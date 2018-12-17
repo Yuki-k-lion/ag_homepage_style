@@ -1,6 +1,9 @@
 /*=======
 Bace style
 =======*/
+.home_main{
+  background-color: #037ef3;
+}
 
 .home .container {
   width: 100% !important;
@@ -24,7 +27,7 @@ sidebar
 @media(min-width: 48em) {
   .home .sidebar {
     max-width: 45rem;
-    margin-left: 45px;
+    /* margin-left: 45px; */
   }
 }
 
