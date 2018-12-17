@@ -39,7 +39,7 @@ about section
   /* margin-left: auto;
   margin-right: auto; */
   text-align: center;
-  margin: 20vh auto;
+  margin: 5vh auto;
 }
   .page-template-default .library_about h2 {
     border-bottom: 2px solid #037ef3;
@@ -134,3 +134,11 @@ Tag Section
   .page-template-default .tag_list .l-tags > li {
     width: 80%;
     margin: 20px auto; } }
+
+/*==========
+new topicks
+============*/
+.new_obog_posts-title{
+  border-bottom: 2px solid #037ef3;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+.su-posts{
+  padding: 0 10vw;
+}
+
+.su-post-comments-link, .su-post-excerpt{
+  display: none;
+}
