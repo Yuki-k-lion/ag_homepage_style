@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*===========
+preset
+===========*/
+/*----------------------------------
+aiesec base color
+----------------------------------*/
+/*----------------------------------
+Socialsite color
+----------------------------------*/
+
+/*===========
+Bace
+===========*/
+img{
+ 	width:100%;
+    height:auto;
+  }
+
+/*=======
+Top section
+=======*/
+@media (min-width: 400px) {
+  .page-template-default .obog_book_top_image {
+    width: 100%; }
+  .page-template-default .obog_book_top_image_mobile {
+    display: none; } }
+
+@media (max-width: 399px) {
+  .page-template-default .obog_book_top_image_mobile {
+    width: 100%; }
+  .page-template-default .obog_book_top_image {
+    display: none; } }
+
+/*=======
+about section
+=======*/
+.page-template-default .library_about {
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  margin: 20vh auto;
+}
+  .page-template-default .library_about h2 {
+    border-bottom: 2px solid #037ef3;
+    text-align: center; }
+
+/*=======
+article section
+???あとで誤字訂正
+=======*/
+.page-template-default .topicks {
+  background-color: #aaa;
+  background-image: url("http://aoyama.aiesec.jp/wp-content/uploads/2017/11/background_lib.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .page-template-default .topicks:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .page-template-default .topicks h2 {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    margin-bottom: .5rem; }
+  .page-template-default .topicks .l-article li img {
+    -webkit-box-shadow: 0 0 1px 0 #999;
+    box-shadow: 0 0 1px 0 #999; }
+
+@media (min-width: 400px) {
+  .page-template-default .l-article li {
+    list-style: none;
+    float: left;
+    width: 30vw;
+    margin: 0 12px 12px 0; }
+
+@media (max-width: 399px) {
+  .page-template-default .l-article ul{
+    list-style: none;
+  }
+  .page-template-default .l-article li {
+    list-style: none;
+    float: left;
+    width: 80vw;
+    padding-left: 5%;
+    margin: 0 auto; } }
+
+.obog_btn {
+  width: 300px;
+  margin: 20px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: bold;
+  border: double 4px #fff;
+  border-radius: 3px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+  background-color: #ffc845;
+  text-align: center; }
+  .obog_btn:hover {
+    background: #fffbef;
+    color: #037ef3 !important; }
+
+/*=======
+Tag Section
+=======*/
+.page-template-default .tag_list {
+  clear: left;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .page-template-default .tag_list h3 {
+    color: #037ef3;
+    border-bottom: 1px solid #037ef3; }
+  .page-template-default .tag_list:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .page-template-default .tag_list .l-tags > li {
+    list-style: none;
+    float: left; }
+
+@media (min-width: 400px) {
+  .page-template-default .tag_list .l-tags > li {
+    width: 30%;
+    margin: 0 12px 12px 0; } }
+
+@media (max-width: 399px) {
+  .page-template-default .tag_list .l-tags > li {
+    width: 80%;
+    margin: 20px auto; } }
